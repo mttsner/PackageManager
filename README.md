@@ -1,7 +1,5 @@
-# PackageManager
-A package manager for lua scripts.
 ## How to use this stoopid shit.
-Just run the `PackageManager.lua` script and then you can use `import(<Package Name>)` in any script,
+Just run the `PackageManager.lua` script and then you can use `import(<Package Name>)` in any script.
 ## Example
 ```lua
 local mt = import("MetatableHooking")
