@@ -1,6 +1,6 @@
 {
     "MetatableHooking" : {
-        "url" : "https://raw.githubusercontent.com/Vzurxy/zerohub/master/dependencies/MetatableHooking.lua",
+        "url" : "https://raw.githubusercontent.com/notnoobmaster/PackageManager/master/Packages/MetatableHooking.lua",
         "run_once" : true,
         "version" : 1.2
     }
