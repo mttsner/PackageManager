@@ -1,18 +1,18 @@
 --Assert checks.
-assert(isfolder,"Your exploit doesn't support needed functions.");
-assert(listfiles,"Your exploit doesn't support needed functions.");
-assert(loadfile,"Your exploit doesn't support needed functions.");
-assert(loadstring,"Your exploit doesn't support needed functions.");
-assert(game.HttpGet,"Your exploit doesn't support needed functions.");
-assert(getgenv,"Your exploit doesn't support needed functions.");
+assert(isfolder,    "Your exploit doesn't support the needed functions.");
+assert(listfiles,   "Your exploit doesn't support the needed functions.");
+assert(loadfile,    "Your exploit doesn't support the needed functions.");
+assert(loadstring,  "Your exploit doesn't support the needed functions.");
+assert(game.HttpGet,"Your exploit doesn't support the needed functions.");
+assert(getgenv,     "Your exploit doesn't support the needed functions.");
 --Variables.
 local http = game:GetService("HttpService");
 local dependency_folder = "dependencies/";
-local url = "https://raw.githubusercontent.com/Vzurxy/zerohub/master/dependencies/packages.json";
+local url = "https://raw.githubusercontent.com/notnoobmaster/PackageManager/master/Packages/packages.json";
 local packages_json = "packages.json";
 local local_packages = {};
 local packages = {};
---Package json decoding.
+--Package.json decoding.
 local function fetch_packages()
     local err, ret = pcall(game.HttpGet, game.HttpGet, url);
     if not err then error("Couldn't fetch the packages.json file."); end;
