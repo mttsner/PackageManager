@@ -65,7 +65,7 @@ getgenv().import = function(package) --Can't wrap it in a c closure.
     if type(packages[package]) == "function" then
         return packages[package]()
     --Run once package.
-    elseif type(packages[package]) == "table" not packages[package].url then
+    elseif type(packages[package]) == "table" and not packages[package].url then
         return packages[package]
     elseif local_packages[package] then --If the file is already locally stored, loads the file from local storage.
         if not isfile(dependency_folder..package..".lua") then error("File in local storage was deleted.") end
