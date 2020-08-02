@@ -1,5 +1,4 @@
 local package = {};
-local set_thread_identity = syn.set_thread_identity or set_thread_context or setthreadcontext --idk what sirhurt has and frankly idc
 
 --Package class
 local index_list = {};
