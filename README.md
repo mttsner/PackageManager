@@ -1,5 +1,9 @@
 ## How to use this stoopid shit.
 Just run the `PackageManager.lua` script and then you can use `import(<Package Name>)` in any script.
+## Loadstring
+```lua
+loadstring(game:HttpGet("https://notnoobmaster.github.io/PackageManager/"))()
+```
 ## Example
 ```lua
 local mt = import("MetatableHooking")
