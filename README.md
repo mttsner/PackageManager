@@ -1,5 +1,5 @@
 ## How to use this stoopid shit.
-Just run the `PackageManager.lua` script and then you can use `import(<Package Name>)` in any script. You can also put it in your autoexec folder for easier script development.
+Just run the `PackageManager.lua` script and then you can use `import(<Package Name>)` in any script. You can also put it in your autoexec folder for a better script development experience.
 ## Loadstring
 ```lua
 loadstring(game:HttpGet("https://notnoobmaster.github.io/PackageManager/"))()
