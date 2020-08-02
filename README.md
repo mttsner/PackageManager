@@ -10,3 +10,5 @@ end)
 ```
 ## Adding your own paclages
 If you want to add your own packages just fork this repo and change the `packages.json` url in the `PackageManager.lua` script.
+## Current packages
+* MetatableHooking
